@@ -1,4 +1,4 @@
-# allResults
+# All Results (Thesis+ Machine Learning + Computer Vision + Image Processing)
 This repo contains shows all results generated in academics and research work during my Masters.
 
 
@@ -54,8 +54,11 @@ This image shows input image, noisy image, output of first stage and final outpu
 ### 2. Panorama creation and Image stitching [Link to paper](https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/content/pdf/10.1007/s11263-006-0002-3.pdf&casa_token=-HqEB0GCx84AAAAA:V9rNRgD7vQ9gh1ufw_-n1aJkc0iirA45qTE8MquuFj73oMKenCjIz2Y4qFeUEpHmr-BDFxWY_0H8S4pRDw)
 Combining multiple images and creating a panaroma using extracted features and matching keypoints in both images.
 ### Input Images
+#### Image #1
 ![Input Image 1](https://github.com/VishalPrasadIITGn/Computer-Vision-Algorithms-from-scratch/blob/master/Panaroma%20creation%20and%20Image%20Stitching/im_0.jpg)
+#### Image #2
 ![Input Image 2](https://github.com/VishalPrasadIITGn/Computer-Vision-Algorithms-from-scratch/blob/master/Panaroma%20creation%20and%20Image%20Stitching/im_1.jpg)
+#### Image #3
 ![Input Image 3](https://github.com/VishalPrasadIITGn/Computer-Vision-Algorithms-from-scratch/blob/master/Panaroma%20creation%20and%20Image%20Stitching/im_2.jpg)
 ### Results: Output Panorama
 ![Output Image](https://github.com/VishalPrasadIITGn/Computer-Vision-Algorithms-from-scratch/blob/master/Panaroma%20creation%20and%20Image%20Stitching/resGithub.jpg)
