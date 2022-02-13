@@ -4,8 +4,11 @@ This repo contains shows all results generated in academics and research work du
 
 # Thesis
 ### Image inpainting by modified U-Net
-Image inpainting for satelite images of Lunar and Martian surface was performed to fill/predict the mising pixel values. Original Deep image Prior method was modified to obtain good results. Results are shown below
+Image inpainting for satelite images of Lunar and Martian surface was performed to fill/predict the mising pixel values. 
+Original Deep image Prior method was modified to obtain good results. Results are shown below
+
 ![inpaint](https://github.com/VishalPrasadIITGn/allResults/blob/main/inpaint.PNG)
+
 ![modified UNet](https://github.com/VishalPrasadIITGn/allResults/blob/main/UNet.PNG)
 
 ### Data Augmentation using affine transformation
@@ -14,11 +17,25 @@ Data augmentation was performed to generate additional/synthetic training sample
 
 ### Semi-supervised classification
 Two-class image classification with limited no. of samples (less than 100 sample) was performed using augmentation and k-fold cross validation.
+Various architectures were tried and results are mentioned below.
+![classification](https://github.com/VishalPrasadIITGn/results/blob/main/rf_res.PNG)
 
 ### Unsupervised Clustering
-Images were cluserted using autoencoders. Both full connected and Convolutional autoencoders were used to perform dimensionality reduction and then clustering techniques were applied.
+Images were cluserted using autoencoders. Both full connected and Convolutional autoencoders were used to perform dimensionality reduction and then clustering techniques were applied. A typical structure of Convolutional autoencoder is shown below.
+![CAE](https://github.com/VishalPrasadIITGn/results/blob/main/cae.PNG)
+
+Entire process of Convolutional Autoencoder + Clustering is shown below.
+![CAEcluster](https://github.com/VishalPrasadIITGn/results/blob/main/cae_2.PNG)
+
 ### Crater detection and Segmentation
-Training CNN models to perform crater detection and segmentation using a novel method and architecture to beat the SOTA results. Further details cannot be stated as paper is under preparation.
+Training CNN models to perform crater detection and segmentation using a novel method and architecture to beat the SOTA results. An example of visual result is shown.
+
+![detvis](https://github.com/VishalPrasadIITGn/results/blob/main/det_pic.PNG)
+
+
+Consolidate results are as shown below.
+
+![dettab](https://github.com/VishalPrasadIITGn/results/blob/main/od_mars.PNG)
 
 # Machine Learning
 ## Obect detection and Counting
@@ -89,7 +106,7 @@ Pixel realignement was performed between a set of stereo images.
 Pixels of second image were realigned to resemble/recreate the first image.
 ![results](https://github.com/VishalPrasadIITGn/Computer-Vision-Algorithms-from-scratch/blob/master/Stereo%20image%20correspondences%20using%20Fundamental%20matrix/results1.PNG)
 
-# Nature_Inspired_Computing-NIC-
+# Genetic alggorithms/Nature_Inspired_Computing
 Evolutionary Computing algorithms like Genetic Algorithms (GA), Particle Swarm Optimization (PSO), Non-Domination Sorting Algorithms (NSGA-2), Fuzzy Algorithms and ANFIS along with their results. Results are shown in .GIF/.PNG format for all codes.
 ### Function approximation using Particle Swarm Optimization (PSO) 
 #### Results
