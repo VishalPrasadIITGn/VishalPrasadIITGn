@@ -12,7 +12,9 @@ Original Deep image Prior method was modified to obtain good results. Results ar
 ![modified UNet](https://github.com/VishalPrasadIITGn/allResults/blob/main/UNet.PNG)
 
 ### Data Augmentation using affine transformation
-Data augmentation was performed to generate additional/synthetic training samples to train the model. An example of data augmentation is shown.
+Data augmentation was performed to generate additional/synthetic training samples to train the model.
+An example of data augmentation is shown.
+
 ![aug](https://github.com/VishalPrasadIITGn/allResults/blob/main/augmenttation.PNG)
 
 ### Semi-supervised classification
